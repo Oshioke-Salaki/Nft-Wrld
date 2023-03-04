@@ -1,3 +1,7 @@
+.trendColl1 {
+    margin-bottom: 8rem;
+}
+
 .collNav {
     display: flex;
     justify-content: space-between;
@@ -51,6 +55,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.moreBtn img {
+    margin-left: 0.8rem;
 }
 
 .collectionItems {

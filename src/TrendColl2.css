@@ -1,0 +1,18 @@
+.trendColl2 {
+    margin-bottom: 8rem;
+}
+
+.trending2Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending2Head button {
+    height: fit-content;
+}
+
+.collectionContainer {
+    display: flex;
+    justify-content: space-between;
+}

@@ -9,6 +9,19 @@ import img8 from './assets/col-8.jpg';
 import img9 from './assets/col-9.jpg';
 import img10 from './assets/col-10.jpg';
 
+//Portfolio Imgs
+import portMain1 from './assets/portfolioMain1.jpg';
+import portSub11 from './assets/portfolioSub11.jpg';
+import portSub12 from './assets/portfolioSub12.jpg';
+
+import portMain2 from './assets/portfolioMain2.jpg';
+import portSub21 from './assets/portfolioSub21.jpg';
+import portSub22 from './assets/portfolioSub22.jpg';
+
+import portMain3 from './assets/portfolioMain3.jpg';
+import portSub31 from './assets/portfolioSub31.jpg';
+import portSub32 from './assets/portfolioSub32.jpg';
+
 export const collectionItems = [
   {
     img: img1,
@@ -82,6 +95,31 @@ export const collectionItems = [
   },
 ];
 
+export const portfolios = [
+  {
+    mainImg: portMain1,
+    subImg1: portSub11,
+    subImg2: portSub12,
+    portfolioName: 'Spacio Collection',
+    owner: 'Santi',
+  },
+  {
+    mainImg: portMain2,
+    subImg1: portSub21,
+    subImg2: portSub22,
+    portfolioName: 'Andes Collection',
+    owner: 'Randy',
+  },
+  {
+    mainImg: portMain3,
+    subImg1: portSub31,
+    subImg2: portSub32,
+    portfolioName: 'Boytii Collection',
+    owner: 'Salaki',
+  },
+];
+
 export default {
   collectionItems,
+  portfolios,
 };

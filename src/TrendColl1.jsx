@@ -10,7 +10,7 @@ import { collectionItems } from './collectionItems';
 export default function TrendColl1() {
   const [filterCrypto, setFilterCrypto] = useState('ALL');
   return (
-    <div>
+    <div className="trendColl1">
       <SectionHeader
         text="Trending Collections"
         subText="Check out our daily trending collections"

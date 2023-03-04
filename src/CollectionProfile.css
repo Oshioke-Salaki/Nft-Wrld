@@ -1,0 +1,42 @@
+.collectionProfile {
+    width: 37.451rem;
+}
+
+.collectionProfile img {
+    border-radius: 5px;
+}
+
+.portfolioMainImg {
+    margin-bottom: 1.5rem;
+}
+
+.collectionProfile .subImgs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+.collectionProfile h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.collectionProfile h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.collectionProfile h4 img {
+    margin-right: 0.8rem;
+}

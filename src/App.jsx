@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import TrendColl1 from './TrendColl1';
+import TrendColl2 from './TrendColl2';
+import TopSellers from './TopSellers';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <TrendColl1 />
+      <TrendColl2 />
+      <TopSellers />
     </div>
   );
 }
