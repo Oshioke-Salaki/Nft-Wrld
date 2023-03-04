@@ -1,5 +1,5 @@
 .collectionProfile {
-    width: 37.451rem;
+    width: 100%;
 }
 
 .collectionProfile img {
@@ -8,12 +8,18 @@
 
 .portfolioMainImg {
     margin-bottom: 1.5rem;
+    width: 100%;
 }
 
 .collectionProfile .subImgs {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.6rem;
+    /* column-gap: 2.1rem; */
+}
+
+.collectionProfile .subImgs img {
+    width: 47%;
 }
 
 .collectionProfile h3 {

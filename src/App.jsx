@@ -7,6 +7,7 @@ import TrendColl1 from './TrendColl1';
 import TrendColl2 from './TrendColl2';
 import TopSellers from './TopSellers';
 import NftBanner from './NftBanner';
+import FAQS from './FAQS';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <TrendColl2 />
       <TopSellers />
       <NftBanner />
+      <FAQS />
     </div>
   );
 }
