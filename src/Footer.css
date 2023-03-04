@@ -1,0 +1,98 @@
+.footer {
+    background: #252525;
+    margin-left: -8rem;
+    margin-right: -8rem;
+    padding: 6rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLeft h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.085em;
+    color: #1e19e4;
+    margin-bottom: 2rem;
+}
+
+.footerLeft h1 span {
+    color: white;
+    margin-left: 0.7rem;
+}
+
+.footerLeft p {
+    margin-bottom: 2rem;
+}
+
+.footerText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    margin-right: 2rem;
+}
+
+.footerHead {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.footerCenter h4 {
+    margin-bottom: 2rem;
+}
+
+.footerRight p {
+    margin-bottom: 1.7rem;
+}
+
+.footerRight form {
+    display: flex;
+}
+
+.footerRight form input {
+    width: 70%;
+    padding: 1.3rem 0.8rem 1.2rem 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: black;
+    border-radius: 8px 0 0 8px;
+}
+
+.footerRight form input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #5a5a5a;
+}
+
+.footerRight form button {
+    background: #1b39a6;
+    border-radius: 0px 8px 8px 0px;
+    position: 1.3rem 2.2rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
