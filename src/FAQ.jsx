@@ -3,7 +3,7 @@ import up from './assets/upArrow.png';
 import down from './assets/downArrow.png';
 import './FAQ.css';
 
-export default function FAQ() {
+export default function FAQ({ question }) {
   const [opened, setOpened] = useState(false);
   return (
     <div className={opened ? 'faq openedFaq' : 'faq closedFaq'}>
@@ -13,8 +13,7 @@ export default function FAQ() {
           setOpened(!opened);
         }}
       >
-        How to find NFT in the NFTWorld marketplace?{' '}
-        <img src={opened ? up : down} alt="" />
+        {question} <img src={opened ? up : down} alt="" />
       </h3>
       <ul className={opened ? 'faqAnswer openedAnswer' : 'faqAnswer'}>
         <li>
