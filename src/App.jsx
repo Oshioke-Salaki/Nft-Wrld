@@ -6,6 +6,7 @@ import Hero from './Hero';
 import TrendColl1 from './TrendColl1';
 import TrendColl2 from './TrendColl2';
 import TopSellers from './TopSellers';
+import NftBanner from './NftBanner';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TrendColl1 />
       <TrendColl2 />
       <TopSellers />
+      <NftBanner />
     </div>
   );
 }

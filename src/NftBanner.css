@@ -1,0 +1,32 @@
+.nftBanner {
+    display: flex;
+    background-color: white;
+    margin-left: -8rem;
+    margin-right: -8rem;
+    /* justify-content: center; */
+    padding: 14rem;
+    height: 44rem;
+    margin-top: 9rem;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.nftBanner p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 459.897px;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    -webkit-text-stroke: 3.59294px #232121;
+    color: white;
+    align-self: center;
+}
+
+.nftBanner img {
+    position: absolute;
+    z-index: 0;
+    bottom: -1rem;
+    right: 12.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+}

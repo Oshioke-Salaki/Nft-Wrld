@@ -1,0 +1,58 @@
+.topSellerCard {
+    position: relative;
+    padding: 1.7rem 1.5rem;
+    background: #2b386d;
+    border-radius: 7.28052px;
+    display: flex;
+    align-items: center;
+    /* width: inherit; */
+}
+
+.sellerImg {
+    margin-right: 1.5rem;
+}
+
+.topSellerCard h4 {
+    position: absolute;
+    right: 1.8rem;
+    top: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    /* color: #28fc3a; */
+}
+
+.increase {
+    color: #28fc3a;
+}
+
+.decrease {
+    color: #ff5046;
+}
+
+.sellerDetails h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.8015px;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+
+.sellerDetails h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.1789px;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.sellerDetails h5 img {
+    margin-right: 0.5rem;
+}

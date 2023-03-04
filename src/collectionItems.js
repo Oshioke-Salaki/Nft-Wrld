@@ -22,6 +22,17 @@ import portMain3 from './assets/portfolioMain3.jpg';
 import portSub31 from './assets/portfolioSub31.jpg';
 import portSub32 from './assets/portfolioSub32.jpg';
 
+//Seller Imgs
+import seller1 from './assets/seller1.png';
+import seller2 from './assets/seller2.png';
+import seller3 from './assets/seller3.png';
+import seller4 from './assets/seller4.png';
+import seller5 from './assets/seller5.png';
+import seller6 from './assets/seller6.png';
+import seller7 from './assets/seller7.png';
+import seller8 from './assets/seller8.png';
+import seller9 from './assets/seller9.png';
+
 export const collectionItems = [
   {
     img: img1,
@@ -119,7 +130,73 @@ export const portfolios = [
   },
 ];
 
+export const sellers = [
+  {
+    name: 'SashaLovely',
+    sellerImg: seller1,
+    value: '784,345,234',
+    projection: '+15.07%',
+    crypto: 'ETH',
+  },
+  {
+    name: '0xZaddy',
+    sellerImg: seller2,
+    value: '1,125,802,231',
+    projection: '+25.67%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'PelzFX',
+    sellerImg: seller3,
+    value: '890,230',
+    projection: '-45.00%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'ETH-Daddy',
+    sellerImg: seller4,
+    value: '145,899,238',
+    projection: '-12.37%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'ForexJosh',
+    sellerImg: seller5,
+    value: '145,899,238',
+    projection: '-11.21%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'SashaLovely',
+    sellerImg: seller6,
+    value: '145,899,238',
+    projection: '+54.39%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'ETH/BTC-Lord',
+    sellerImg: seller7,
+    value: '145,899,238',
+    projection: '-56.98%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'Oshioke123',
+    sellerImg: seller8,
+    value: '145,899,238',
+    projection: '+25.67%',
+    crypto: 'ETH',
+  },
+  {
+    name: 'Papi-Chulo',
+    sellerImg: seller9,
+    value: '145,899,238',
+    projection: '-12.54%',
+    crypto: 'ETH',
+  },
+];
 export default {
   collectionItems,
   portfolios,
+  sellers,
 };
