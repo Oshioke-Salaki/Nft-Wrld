@@ -1,9 +1,10 @@
 .faqSection {
     padding-top: 6.1rem;
+    padding-bottom: 10.3rem;
 }
 
-.faqRow {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.faqss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
 }

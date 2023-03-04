@@ -1,22 +1,9 @@
 .faq {
-    width: 48%;
-    margin-bottom: 6rem;
+    width: 100%;
+    margin-bottom: 2.5rem;
     position: relative;
     /* height: 15rem; */
 }
-
-
-/* .closedFaq {
-    display: none;
-}
-
-.openedFaq {
-    /* height: fit-content; */
-
-
-/* display: block;
-
-} */
 
 .faq h3 {
     display: flex;
