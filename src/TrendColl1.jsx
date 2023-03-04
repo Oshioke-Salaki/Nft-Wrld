@@ -65,7 +65,7 @@ export default function TrendColl1() {
               name={item.name}
               img={item.img}
               owner={item.owner}
-              crypto={item.cypto}
+              crypto={item.crypto}
               price={item.price}
             />
           ))) ||
