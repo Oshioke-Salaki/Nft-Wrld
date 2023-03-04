@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9.1rem;
+}
+
+.navbar h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #ffffff;
+}
+
+.navRight,
+.navLinks,
+.navButtons {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks li {
+    margin-right: 2.8rem;
+}
+
+.navLinks li a,
+.navButtons a,
+.navButtons button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #fdfbfb;
+}
+
+.navButtons {
+    margin-left: 2.5rem;
+}
+
+.navButtons button {
+    margin-left: 2.3rem;
+    background: #1b39a6;
+    border-radius: 1rem;
+    padding: 1.5rem 2.7rem;
+}

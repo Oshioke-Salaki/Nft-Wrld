@@ -1,0 +1,86 @@
+.collectionCard {
+    position: relative;
+    width: 21.9rem;
+    border-radius: 0px 0px 8px 8px;
+    /* height: fit-content; */
+    height: 29.3rem;
+    display: inline-block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.colImg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all ease 500ms;
+}
+
+.colImg:hover {
+    transform: scale(1.25);
+}
+
+.cardDetails {
+    position: absolute;
+    width: 21.9rem;
+    background: #2b386d;
+    border-radius: 0px 0px 8px 8px;
+    height: 9.2rem;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    padding: 1.4rem 1.7rem;
+}
+
+.detailTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.1rem;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cryptoBadge {
+    background: #353535;
+    padding: 2px 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #bababa;
+    height: fit-content;
+}
+
+.detailTopLeft h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 134.3%;
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+
+.cardDetails h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 134.3%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.cardDetails h3 img:first-child {
+    margin-right: 0.6rem;
+}
+
+.cardDetails h3 img:last-child {
+    margin-left: 0.6rem;
+}
