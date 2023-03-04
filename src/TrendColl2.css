@@ -15,5 +15,5 @@
 .collectionContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5.65rem;
+    column-gap: 5.6rem;
 }

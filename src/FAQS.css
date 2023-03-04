@@ -1,3 +1,9 @@
 .faqSection {
     padding-top: 4rem;
 }
+
+.faqRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

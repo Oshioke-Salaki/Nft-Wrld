@@ -1,0 +1,18 @@
+.faq {
+    width: 48%;
+    margin-bottom: 6rem;
+}
+
+.faq h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 134.3%;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid #383838;
+}

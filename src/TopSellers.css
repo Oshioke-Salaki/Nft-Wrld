@@ -2,5 +2,5 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 4.35rem;
-    column-gap: 7.4rem;
+    column-gap: 2rem;
 }
