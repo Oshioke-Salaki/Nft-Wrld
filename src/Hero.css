@@ -116,6 +116,9 @@
         margin-bottom: 1.47rem;
         justify-content: center;
         width: 100%;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 134.3%;
     }
     .heroLeft button img {
         margin-left: 1.27rem;
