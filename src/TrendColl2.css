@@ -31,7 +31,8 @@
     .trending2Head {
         margin-bottom: 2rem;
     }
-    .moreBtn {
+    .trending2Head .moreBtn {
         border: none !important;
+        padding: 0 !important;
     }
 }
