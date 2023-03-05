@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import hamburger from './assets/hamburger.png';
 
 export default function Navbar() {
   return (
@@ -22,6 +23,7 @@ export default function Navbar() {
           <button>Sign Up</button>
         </div>
       </div>
+      <img src={hamburger} alt="" />
     </div>
   );
 }

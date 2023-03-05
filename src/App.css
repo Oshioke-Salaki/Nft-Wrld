@@ -63,3 +63,10 @@ button {
     border: 1px solid #1b39a6;
     background: #1b39a6;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 3.1rem 2rem;
+        padding-bottom: 0 !important;
+    }
+}
