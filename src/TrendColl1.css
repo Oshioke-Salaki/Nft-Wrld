@@ -80,6 +80,9 @@
     }
     .collFilter button {
         padding: 1rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+    .cryptoBtns .moreBtn {
+        font-size: 1.2rem;
     }
 }

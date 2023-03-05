@@ -101,4 +101,15 @@
         padding: 0.164rem 0.327rem;
         font-size: 0.982279rem;
     }
+    .cardDetails {
+        position: absolute;
+        width: 100%;
+        background: #2b386d;
+        border-radius: 0px 0px 8px 8px;
+        height: 9.4rem;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+        padding: 1.146rem 1.016rem;
+    }
 }
