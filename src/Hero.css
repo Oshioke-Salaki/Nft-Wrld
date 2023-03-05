@@ -115,6 +115,7 @@
         padding: 1.8rem 3.8rem;
         margin-bottom: 1.47rem;
         justify-content: center;
+        width: 100%;
     }
     .heroLeft button img {
         margin-left: 1.27rem;
@@ -123,11 +124,11 @@
         margin-right: 8.5rem;
     }
     .heroStats .stat h2 {
-        font-size: 2rem;
-        line-height: 2.6rem;
+        font-size: 1.4781rem;
+        line-height: 1.9rem;
     }
     .heroStats .stat h3 {
-        font-size: 11.8248px;
-        line-height: 14px;
+        font-size: 1.18248rem;
+        line-height: 1.4rem;
     }
 }
