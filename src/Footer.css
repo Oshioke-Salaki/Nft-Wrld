@@ -114,6 +114,9 @@
     .footerText {
         font-size: 1.2rem;
     }
+    .footerText br {
+        display: none;
+    }
     .footerLeft p {
         margin-bottom: 1.6rem;
     }
