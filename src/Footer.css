@@ -96,3 +96,63 @@
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 3rem 2rem;
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+    .footerLeft h1 {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        margin-bottom: 1.85rem;
+    }
+    .footerText {
+        font-size: 1.2rem;
+    }
+    .footerLeft p {
+        margin-bottom: 1.6rem;
+    }
+    .footerLeft P:nth-child(2) {
+        font-size: 1.6rem !important;
+    }
+    .footerHead {
+        font-size: 2rem;
+    }
+    .footerRight {
+        width: 100%;
+    }
+    .footerRight form {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerRight form input,
+    .footerRight form button {
+        width: 100%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footerRight form input {
+        margin-bottom: 2rem;
+    }
+    .footerRight form button {
+        padding: 1.2rem 0;
+        font-weight: 700 !important;
+        font-size: 1.4rem !important;
+        line-height: 134.3% !important;
+    }
+    .joinWeekly {
+        margin-bottom: 0.8rem;
+    }
+    .joinCommunity {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+}

@@ -16,7 +16,7 @@ export default function Footer() {
           come and Securely Own Unique Digital Art with Peace
           <br /> of Mind on our Trusted NFT Marketplace
         </p>
-        <p className="footerText">Join Our Community</p>
+        <p className="footerText joinCommunity">Join Our Community</p>
         <div className="socials">
           <img src={youtube} alt="" />
           <img src={instagram} alt="" />
@@ -30,7 +30,7 @@ export default function Footer() {
         <h4 className="footerText">Connect & Wallet</h4>
       </div>
       <div className="footerRight">
-        <h3 className="footerHead">Join Our Weekly digest</h3>
+        <h3 className="footerHead joinWeekly">Join Our Weekly digest</h3>
         <p className="footerText">
           {' '}
           Get exclusive promotions & updates
