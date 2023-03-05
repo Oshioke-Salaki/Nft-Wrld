@@ -85,6 +85,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .collectionCard {
+        height: 24.055rem;
+    }
     .detailTopLeft h2 {
         font-size: 1.3097rem;
         margin-bottom: 0;
