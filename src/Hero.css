@@ -81,6 +81,9 @@
         width: 100%;
         margin-bottom: 1.5rem;
     }
+    .heroLeft {
+        width: 100%;
+    }
     .heroImg,
     .heroLeft h1 br {
         display: none;
