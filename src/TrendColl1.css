@@ -78,4 +78,8 @@
         row-gap: 1.99rem;
         column-gap: 2.78rem;
     }
+    .collFilter button {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
 }
