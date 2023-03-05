@@ -120,8 +120,12 @@
     .heroLeft button img {
         margin-left: 1.27rem;
     }
+    .heroStats {
+        display: flex;
+        justify-content: space-between;
+    }
     .heroStats .stat {
-        margin-right: 8.5rem;
+        margin-right: 0;
     }
     .heroStats .stat h2 {
         font-size: 1.4781rem;
