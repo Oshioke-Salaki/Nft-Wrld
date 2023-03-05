@@ -69,4 +69,10 @@ button {
         padding: 3.1rem 2rem;
         padding-bottom: 0 !important;
     }
+    .btnPrimary {
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        margin-right: 1.8rem;
+    }
 }

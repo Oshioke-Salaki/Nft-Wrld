@@ -67,3 +67,15 @@
     row-gap: 2rem;
     column-gap: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .cryptoBtn,
+    .activeCryptoFilter {
+        display: none;
+    }
+    .collectionItems {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1.99rem;
+        column-gap: 2.78rem;
+    }
+}

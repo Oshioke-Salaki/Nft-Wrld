@@ -83,3 +83,19 @@
 .cardDetails h3 img:last-child {
     margin-left: 0.6rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .detailTopLeft h2 {
+        font-size: 1.3097rem;
+        margin-bottom: 0;
+    }
+    .cardDetails h3 {
+        font-size: 0.982279rem;
+        display: flex;
+        align-items: center;
+    }
+    .cryptoBadge {
+        padding: 0.164rem 0.327rem;
+        font-size: 0.982279rem;
+    }
+}
