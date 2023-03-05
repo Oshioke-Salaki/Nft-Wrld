@@ -14,9 +14,22 @@
 .sectionHeader h2 {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 134.3%;
     text-transform: capitalize;
     color: #ffffff;
     /* margin-top: -1.2rem; */
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionHeader {
+        margin-bottom: 1.62rem;
+    }
+    .sectionHeader h1 {
+        font-size: 20px;
+        line-height: 134.3%;
+    }
+    .sectionHeader h2 {
+        font-size: 1rem;
+    }
 }
