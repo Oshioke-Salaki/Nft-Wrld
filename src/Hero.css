@@ -25,6 +25,10 @@
     margin-bottom: 2rem;
 }
 
+.mobileHeroImg {
+    display: none;
+}
+
 .heroLeft button {
     background: #1b39a6;
     border-radius: 10px;
@@ -69,4 +73,58 @@
     text-transform: capitalize;
     color: #ffffff;
     /* margin-top: -1.2rem; */
+}
+
+@media only screen and (max-width: 600px) {
+    .mobileHeroImg {
+        display: block;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .heroImg,
+    .heroLeft h1 br {
+        display: none;
+    }
+    .hero {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5.83rem;
+        padding-right: 0rem;
+    }
+    .heroLeft h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+    .heroLeft p,
+    .heroLeft button {
+        font-size: 11px;
+        line-height: 134.3%;
+        margin-bottom: 2rem;
+    }
+    .heroLeft button {
+        border-radius: 7.39048px;
+        padding: 1.8rem 3.8rem;
+        margin-bottom: 1.47rem;
+        justify-content: center;
+    }
+    .heroLeft button img {
+        margin-left: 1.27rem;
+    }
+    .heroStats .stat {
+        margin-right: 8.5rem;
+    }
+    .heroStats .stat h2 {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+    .heroStats .stat h3 {
+        font-size: 11.8248px;
+        line-height: 14px;
+    }
 }

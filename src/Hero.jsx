@@ -16,6 +16,7 @@ export default function Hero() {
           come and Securely Own Unique Digital Art with Peace
           <br /> of Mind on our Trusted NFT Marketplace
         </p>
+        <img src={heroImg} alt="" className="mobileHeroImg" />
         <button>
           Get Started <img src={rocket} alt="" />
         </button>
