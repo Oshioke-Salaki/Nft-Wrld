@@ -58,3 +58,15 @@
     text-transform: capitalize;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 600px) {
+    .faq {
+        margin-bottom: 4rem;
+    }
+    .faq h3 {
+        font-size: 1.4rem;
+    }
+    .faqAnswer li {
+        font-size: 1.2rem;
+    }
+}
