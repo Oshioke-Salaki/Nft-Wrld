@@ -65,6 +65,7 @@
     }
     .faq h3 {
         font-size: 1.4rem;
+        align-items: start;
     }
     .faqAnswer li {
         font-size: 1.2rem;
