@@ -34,5 +34,6 @@
     .trending2Head .moreBtn {
         border: none !important;
         padding: 0 !important;
+        align-self: self-start;
     }
 }
