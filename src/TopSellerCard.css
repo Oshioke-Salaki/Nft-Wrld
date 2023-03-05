@@ -10,6 +10,7 @@
 
 .sellerImg {
     margin-right: 1.5rem;
+    height: 100%;
 }
 
 .topSellerCard h4 {
@@ -55,4 +56,19 @@
 
 .sellerDetails h5 img {
     margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .topSellerCard {
+        padding: 1.5rem 1.268rem;
+        border-radius: 7.0439px;
+    }
+    .topSellerCard h4 {
+        right: 2.3rem;
+        top: 1.56rem;
+        font-size: 1.5rem;
+    }
+    .sellerDetails h5 {
+        font-size: 1.2rem;
+    }
 }

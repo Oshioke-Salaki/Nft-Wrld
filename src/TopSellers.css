@@ -4,3 +4,11 @@
     row-gap: 4.35rem;
     column-gap: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .sellerContainer {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        column-gap: 0;
+    }
+}
